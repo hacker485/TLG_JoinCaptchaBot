@@ -1,1 +1,1 @@
-worker: python3 sources/ultramax_join_captcha.py
+worker: python3 sources/join_captcha_bot.py
