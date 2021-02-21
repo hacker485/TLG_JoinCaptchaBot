@@ -1575,7 +1575,7 @@ def cmd_version(update: Update, context: CallbackContext):
 
 
 def cmd_about(update: Update, context: CallbackContext):
-    '''Command /about handler'''
+    '''Command !about handler'''
     bot = context.bot
     # Ignore command if it was a edited message
     update_msg = getattr(update, "message", None)
